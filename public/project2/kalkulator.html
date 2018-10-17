@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kalkulator</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function hitung(){
+
+		var myForm = document.form1;
+		var x=eval(myForm.x.value);
+		var y=eval(myForm.y.value);
+		var pil= myForm.opt.value;
+		if (pil == "tambah") {
+		var z = x + y;
+		}else if (pil == "kurang") {
+		var z = x - y;
+		}
+		 myForm.hasil.value = z;
+		 myForm.x.value = "";
+		 myForm.y.value = "";
+		}
+		function resetForm(){
+		document.form1.reset();}
+	</script>
+
+	<div align="center">
+		<form name="form1" action="#">
+			<p>Bilangan 1  <input type="text" name="x" /></p>
+			<p>Bilangan 2  <input type="text" name="y" /></p>
+			<p>Hasil  <input type="text" name="hasil" disabled="true" /></p>
+			<p>Operator <select name="opt"></p>
+				 <option value="tambah"> + (Tambah)</option>
+				 <option value="kurang"> - (Kurang)</option>
+			</select>
+		<input type="button" value="=" onClick="hitung()" />
+		<input type="button" value="CLEAR" onClick="resetForm()" />
+		</form>
+
+</body>
+</html>
