@@ -1,0 +1,9 @@
+{
+    "places" : [ 
+        {"lokasi": [-6.9650803,106.2656907], "sponsor" : "Sawarna Beach Lebak Banten", "gambar" : "/project3/images/sawarna.jpg", "review" : "Sawarna merupakan pantai untuk bersantai di pantai yang indah dan tempat dimana para peselancar berpetualang tetapi tidak hanya itu ada icon atau tempat untuk para fotografer juga"},
+        {"lokasi": [-6.2980539,105.8420602], "sponsor" : "Pasir Putih Carita Beach", "gambar" : "/project3/images/carita.jpg", "review" : "Carita ialah pantai yang asik jika bersama pasangan ataupun keluarga yang menginginkan pantai yang enak dipajak dan bermain d sekitar pantainya."},
+        {"lokasi": [-6.6474789,105.5704423], "sponsor" : "Pulau Oar Beach Pandeglang", "gambar" : "/project3/images/oar.jpg", "review" : "Oar merupakan tempat yang terletak di daerah pandeglang sumur dimana disana tempat untuk snorkling."},
+        {"lokasi": [-6.7394442,105.2476341], "sponsor" : "Pulau Peucang Beach Ujung Kulon", "gambar" : "/project3/images/peucang.jpg", "review" : "Pulau peucang ialah tempat dimana para snorkler, pantai yang bening merupakan incarannya tidak hanya itu disini kita dapat melihat dengan mata telanjang habitat yang ada dipulau tersebut seperti rusa,badak cula 1 tetapi untuk menempuh ke pulau ini membutuhkan waktu 3 jam dengan perahu didermaga oar ."},
+        {"lokasi": [-6.1377042,105.8279362], "sponsor" : "Pasir Putih Sirih Beach", "gambar" : "/project3/images/sirih.jpg", "review" : "Pantai yang asik dan tidak ada karang yang ingin berenang ataupun main air bisa kesini."}
+    ]
+}

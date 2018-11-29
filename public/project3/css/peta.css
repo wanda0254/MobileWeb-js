@@ -1,0 +1,36 @@
+html, body, #map {
+    height: 100%;
+    width: 100vw;
+}
+body {
+    background: #ae8989; 
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    grid-gap: 4px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 15% 20% 60%;
+}
+
+.peta {
+    margin: 23px;
+    grid-column: 1/-1;
+    width: 100%;
+    height:400%; 
+}
+
+.header {
+    background: #3eb8c0;
+    border: 2px solid #0e0657;
+    border-radius: 20px;
+    color: #fff;
+    grid-column: 1/-1;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    width: 90vw;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Index page use mapbox"/>
+    
+    <title>Maps</title>
+    <meta name="theme-color" content="#2196f3"/>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/peta.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+</head>
+<body>
+    <div class="container">
+         <div class="header">
+            <h1>My Map<br> Fetch JSON</h1>
+        </div>
+        <div class="peta" id="mapid">
+             <div id="desc"></div>
+        </div>
+    </div>
+    <script>
+    (function() {
+        if ('serviceWorker' in navigator) {
+         navigator.serviceWorker.register('sw.js', {scope: '../project3/'})
+         .then ( () => console.log('Service Worker registered'))
+         .catch ( (error)=>console.log('Registration failed:' ,error));
+        }
+    })();
+    </script>
+<script src="js/peta.js" async></script>
+</body>
+</html>
