@@ -20,10 +20,16 @@ function precache(){
 		return cache.addAll([
 			'./index.html',
 			'./styleGrid.css',
+			'./asset/style.css',
 			'./404.html',
 			'./sw.js',
 			'./asset/register_sw.js',
-			'./style.css',
+			'./service-worker.js',
+			'./images/style.css',
+			'./project3/css/peta.css',
+			'./data/peta.json',
+			'./peta.js',
+			'./manifest.json'
 			'./project1/maps.html',
 			'./project2/kalkulator.html'
 			'./project3/index.html'
